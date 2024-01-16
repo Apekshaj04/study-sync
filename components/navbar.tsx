@@ -18,7 +18,7 @@ const Navbar = () => {
      </div>
      
     </nav>
-    <SiteDesc/>
+
   </div>
 </header>
     </div>

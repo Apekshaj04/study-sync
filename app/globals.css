@@ -79,3 +79,15 @@ html,body,:root {
     @apply bg-background text-foreground;
   }
 }
+.feed{
+ animation: pulse 2s 1;
+
+ }
+ @keyframes pulse {
+  0%,100%{
+    transform: scale();
+  }
+  50%{
+    transform: scale(1.2);
+  }
+}

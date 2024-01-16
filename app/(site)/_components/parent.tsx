@@ -27,15 +27,15 @@ export const Parent = () => {
         setVariant('SCHEDULE');
     }
     return (
-        <div>
+        <div className='bg-slate-500 h-96 '>
             <div
-                className="flex  cursor-pointer flex justify-center items-center">
+                className="flex  cursor-pointer bottom-2 justify-center items-center bg-slate-500">
 
-                <div className="inline-flex bg-gray-100 hover:bg-green-400  text-lg">
+                <div className="inline-flex  hover:bg-green-400  text-3xl ">
                     <button onClick={setRecent}>RECENT</button>
                 </div>
                 <div className='w-10'></div>
-                <div className="inline-flex bg-gray-100 hover:bg-red-400  text-lg">
+                <div className="inline-flex  hover:bg-red-400  text-3xl">
                     <button onClick={setSehcdule} className="">SCHEDULE</button>
                 </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 export const  Feed=()=> {
   return (
-    <div className=' flex justify-center items-center'>
+    <div className=' flex justify-center items-center bottom-6 feed'>
       
 
 <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

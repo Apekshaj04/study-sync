@@ -2,6 +2,7 @@ import { Logo } from '@/components/logo'
 import { UserButton } from '@clerk/nextjs'
 import React from 'react'
 import Link from 'next/link'
+import { SiteDesc } from './SiteDesc'
 const Navbar = () => {
   return (
     <div className=' bg-slate-600'>

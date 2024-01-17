@@ -29,13 +29,13 @@ export const Parent = () => {
     return (
         <div className='bg-slate-500 h-96 '>
             <div
-                className="flex  cursor-pointer bottom-2 justify-center items-center bg-slate-500">
+                className="flex  cursor-pointer bottom-2 justify-center items-center bg-slate-500 pt-10">
 
-                <div className="inline-flex  hover:bg-green-400  text-3xl ">
+                <div className="inline-flex bg-gray-100 hover:bg-green-400  pr-4 pl-4 rounded-sm text-3xl ">
                     <button onClick={setRecent}>RECENT</button>
                 </div>
                 <div className='w-10'></div>
-                <div className="inline-flex  hover:bg-red-400  text-3xl">
+                <div className="inline-flex bg-gray-100 hover:bg-red-400  pr-4 pl-4 rounded-sm text-3xl">
                     <button onClick={setSehcdule} className="">SCHEDULE</button>
                 </div>
 
